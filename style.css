@@ -1,0 +1,102 @@
+body{
+margin: 0px;
+padding: 0px;
+background-image: url('https://plus.unsplash.com/premium_photo-1661265933107-85a5dbd815af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1118&q=80');
+background-repeat: no-repeat;
+background-size: cover;
+ font-family: 'Josefin Sans', sans-serif;
+ color: white;
+}
+
+.left{
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: white;
+    margin-left: 100px;
+    width: 200px;
+    text-align: center;
+}
+.mid{
+
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    /* border: 2px solid green;  */
+    color: white; 
+}
+
+.right{
+    /* border: 2px solid yellow; */
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+    top: 20px;
+}
+.left div{
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.navbar{
+    display: inline-block;
+    list-style: none;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a{
+   color: white;
+   text-decoration: none;
+   padding: 15px 15px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img{
+    width: 60px;
+}
+
+.right .btn{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+
+.container{
+    border: 2px solid white;
+    width: 45%;
+    margin: 110px 80px;
+    padding: 40px 60px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 34%;
+    padding: 6px 60px ;
+    margin: 4px auto;
+    border-radius: 10px;
+}
+
+.container .btn{
+    width: 52%;
+    border-radius: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: blueviolet;
+}
